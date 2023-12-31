@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Principal ammount : <input type="text" id="input1">
+    <br>
+    Rate of intrest : <input type="text" id="input2">
+    <br>
+    Time : <input type="text" id="input3">
+    <br>
+    <button class="btn" onclick="cal()">Calculate</button>
+    <br>
+    Simple intrest is <input type="text" id="input4">
+    <br>
+    <button id="reset">Reset</button>
+
+    <script>
+        function cal(){
+            const p = parseFloat(document.querySelector('#input1').value);
+            const r = parseFloat(document.querySelector('#input2').value);
+            const t = parseFloat(document.querySelector('#input3').value);
+
+            const result = (p * r * t) / 100;
+            let display = document.querySelector('#input4');
+            display.value = result;
+        }
+        
+        let reset = document.querySelector('#reset');
+        reset.addEventListener('click',()=>{
+            document.querySelector('#input1').value = '';
+            document.querySelector('#input2').value = '';
+            document.querySelector('#input3').value = '';
+            document.querySelector('#input4').value = '';
+        })
+
+    </script>
+</body>
+</html>

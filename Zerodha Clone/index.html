@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="nav-logo">
+        <img src="/Images/logo.svg" alt="" srcset="" />
+      </div>
+
+      <div class="nav-links">
+        <a href="#">Signup</a>
+        <a href="#">About</a>
+        <a href="#">Products</a>
+        <a href="#">Pricing</a>
+        <a href="#">Support</a>
+        <span class="material-symbols-outlined"> menu </span>
+      </div>
+    </div>
+
+    <div class="container-img">
+      <img src="/Images/landing.png" alt="" srcset="" />
+    </div>
+
+    <h1>Invest in everything</h1>
+    <p>
+      Online platform to invest in stocks, derivatives, mutual funds, and more
+    </p>
+
+    <div class="btn">
+      <button class="btn1">Sign up now</button>
+    </div>
+
+    <!-- Simple Intrest part  -->
+    <div class="container-cal">
+        <div class="content">
+          <h5>Simple Interest Calculator</h5>
+          <div class="box1" >
+            <h6>Principal ammount</h6>
+           <input type="text" id="input1">
+          </div>
+          <div class="box1">
+            <h6>Rate of intrest</h6>
+            <input type="text" id="input2">
+          </div>
+          <div class="box1">
+            <h6>Time period</h6>
+            <input type="text" id="input3">
+          </div>
+          
+          <button class="btn2" onclick="calculateSimpleInterest()">Calculate</button>
+          <p id="result"></p>
+          
+        </div>
+    </div>
+ 
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* <!-- Navbar --> */
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+  
+}
+.logo h1{
+    color: rgb(223, 120, 137);
+}
+
+ul{
+    display: flex;
+    
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    margin-inline: 22px;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+.logo{
+    font-size: 22px;
+}
+
+nav i{
+    font-size: 25px;
+}
+
+ul li a:hover{
+    color: pink;
+}
+
+/* <!-- Main part --> */
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 107px;
+}
+
+.main img{
+    width: 325px;
+}
+.main h1{
+    font-size: 55px;
+
+}
+.main p{
+    color: rgb(22, 13, 13);
+    margin-top: 22px;
+}
+.main button{
+    width: 140px;
+    height: 40px;
+    background-color: rgba(231, 223, 211, 0.511);
+    border: none;
+    margin-top: 22px;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: 750;
+}
+
+/* <!-- Shop part --> */
+
+.shop{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.head{
+    text-align: center;
+}
+.shopCard{
+    width: 300px;
+    margin-inline: 22px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+}
+.shopCard img{
+    width: 100%;
+    height: 330px;
+}
+
+.shopCard p{
+    margin-top: 10px;
+}
+
+.shopCard button{
+    width: 90px;
+    background-color: rgb(93, 84, 84);
+    border: none;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+    
+}
+
+/* <!-- New Arrival part --> */
+
+#arrival{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrival{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 22px;
+    width: 900px;
+
+}
+
+.arrival img{
+  width: 500px;
+
+}
+.arrivalText{
+    margin: 10px;
+    padding: 22px;
+}
+.arrivalText p{
+    margin-top: 20px;
+}
+.arrivalText button{
+    margin-top: 20px;
+    width: 105px;
+    background-color: rgb(93, 84, 84);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 3px;
+    
+}
+.arrivalText h1:hover{
+    color: rgb(149, 210, 59);
+}
+/* <!-- Blog part --> */
+.blogs{
+    display: flex;
+    justify-content: center;
+}
+
+.blogCard{
+    width: 300px;
+    margin-inline: 22px;
+}
+
+.blogCard img{
+    width: 100%;
+    height: 300px;
+}
+
+.blogCard a{
+    text-decoration: none;
+    background-color: rgb(213, 73, 73);
+    color: aliceblue;
+    padding: 5px;
+    position: relative;
+    top: 5px;
+
+}
+/* .blogCard h3{
+    margin: 5px;
+} */
+
+/*  <!-- Footer part --> */
+.footer{
+    margin-top: 66px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: aliceblue;
+    padding: 66px;
+}
+
+.footer p{
+    margin-top: 12px;
+}
+
+/* ------------------------------------------ */
